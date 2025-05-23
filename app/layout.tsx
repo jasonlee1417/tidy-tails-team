@@ -4,7 +4,8 @@ import "./globals.css";
 
 //Change font as needed
 const jua = Jua({
-  weight: "400"
+  weight: "400",
+  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
