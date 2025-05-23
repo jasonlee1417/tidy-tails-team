@@ -10,7 +10,7 @@ const faqs = [
   {
     question: "What's our favorite dog?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugialo",
   },
   {
     question: "How long does it take to clean my yard?",
