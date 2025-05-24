@@ -36,7 +36,7 @@ export default function Whyus() {
                 <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-10 lg:max-w-none">
                     <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-8 lg:max-w-none lg:grid-cols-3">
                         {features.map((feature) => (
-                            <div key={feature.name} className="flex rounded-xl lg:p-8 flex-col hover:shadow-xl transition sm:p-0">
+                            <div key={feature.name} className="flex rounded-xl lg:p-8 flex-col lg:hover:shadow-xl transition sm:p-0">
                                 <dt className="flex items-center gap-x-3 text-xl font-semibold text-gray-900">
                                     {feature.name}
                                 </dt>

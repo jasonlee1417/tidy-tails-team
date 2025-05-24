@@ -11,6 +11,7 @@ const jua = Jua({
 export const metadata: Metadata = {
   title: "Tidy Tails",
   description: "Let us do the cleaning for you!",
+  icons: "/husky-svgrepo-com.svg"
 };
 
 export default function RootLayout({

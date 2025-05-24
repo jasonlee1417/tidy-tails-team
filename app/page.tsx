@@ -4,6 +4,7 @@ import Hero from "./ui/hero";
 import Whyus from "./ui/whyus";
 import CallToAction from "./ui/callToAction";
 import Footer from "./ui/footer";
+import { Analytics } from "@vercel/analytics/next";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Faqs />
       <CallToAction/>
       <Footer />
+      <Analytics />
     </div>
   );
 }
