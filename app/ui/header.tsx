@@ -19,14 +19,14 @@ export default function Header() {
       <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">Your Company</span>
+            <span className="sr-only">Tidy Tail Team</span>
             <img
               alt="Tidy Tails Logo"
               src="/husky-svgrepo-com.svg"
               className="h-8 w-auto"
             />
           </a>
-          <span className="text-xl p-1">Tidy Tails</span>
+          <span className="text-xl p-1">Tidy Tail Team</span>
         </div>
         <div className="flex lg:hidden">
           <button
@@ -84,14 +84,6 @@ export default function Header() {
                     {item.name}
                   </a>
                 ))}
-              </div>
-              <div className="py-6">
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
-                >
-                  Log in
-                </a>
               </div>
             </div>
           </div>

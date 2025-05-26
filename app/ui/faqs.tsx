@@ -37,7 +37,7 @@ export default function Faqs() {
                   <DisclosureButton className="group flex w-full items-start justify-between text-left text-white">
                     <span className="text-base/7 font-semibold">{faq.question}</span>
                     <span className="ml-6 flex h-7 items-center">
-                      <ChevronDownIcon aria-hidden="true" className="size-6 group-data-open:hidden" />
+                      <ChevronDownIcon aria-hidden="true" className="size-6 group-data-open:rotate-180" />
                     </span>
                   </DisclosureButton>
                 </dt>
