@@ -3,12 +3,13 @@
 import { useState } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import Link from 'next/link'
 
 const navigation = [
-  { name: 'Home', href: '#' },
-  { name: 'Why Us', href: '#' },
-  { name: 'How It Works', href: '#' },
-  { name: 'About Us', href: '#' },
+  { name: 'Home', href: '/' },
+  { name: 'Why Us', href: '#why-us' },
+  { name: 'How It Works', href: '#how-it-works' },
+  { name: 'About Us', href: '#about-us' },
 ]
 
 export default function Header() {
@@ -18,7 +19,7 @@ export default function Header() {
         <header className="bg-white shadow-xl">
       <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
+          <a href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Tidy Tail Team</span>
             <img
               alt="Tidy Tails Logo"
@@ -40,9 +41,9 @@ export default function Header() {
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
           {navigation.map((item) => (
-            <a key={item.name} href={item.href} className="text-sm/6 font-semibold text-gray-900">
+            <Link key={item.name} href={item.href} className="text-sm/6 font-semibold text-gray-900">
               {item.name}
-            </a>
+            </Link>
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">

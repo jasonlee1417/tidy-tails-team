@@ -22,6 +22,12 @@ export default function Hero() {
                             >
                                 Free Quote
                             </a>
+                            <a
+                                href="#"
+                                className="text-xl rounded-full bg-gray-700 px-3.5 py-2.5 font-semibold text-white shadow-xs hover:bg-gray-200 hover:text-black focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                            >
+                                Contact Us
+                            </a>
                         </div>
                     </div>
                 </div>

@@ -7,6 +7,7 @@ import Footer from "./ui/footer";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Howitworks from "./ui/Howitworks";
+import Aboutus from "./ui/aboutus";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Hero />
       <Whyus />
       <Howitworks />
+      <Aboutus />
       <Faqs />
       <CallToAction/>
       <Footer />

@@ -22,7 +22,7 @@ const features = [
 export default function Whyus() {
 
     return (
-        <div className="bg-white pt-20 pb-14 sm:pb-20">
+        <div className="bg-white pt-20 pb-14 sm:pb-20" id="why-us">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl lg:text-center">
                     <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl lg:text-balance">
