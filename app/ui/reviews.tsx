@@ -48,7 +48,7 @@ export default function Reviews() {
         <div className="bg-blue-200 pt-20 pb-14 sm:pb-20">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl lg:text-center pb-12">
-                    <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl lg:text-balance px-6">
+                    <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl lg:text-balance">
                         Hear what others say about us!
                     </p>
                 </div>
