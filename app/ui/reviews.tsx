@@ -15,32 +15,32 @@ export default function Reviews() {
         {
             reviewText: "Commodo nec sagittis tortor mauris sed. Turpis tortor quis scelerisque diam id accumsan nullam tempus. Pulvinar etiam lacus volutpat eu. Phasellus praesent ligula sit faucibus.",
             reviewAuthor: "Person Name",
-            reviewDate: "11/112011",
+            reviewDate: "11/11/2011",
         },
         {
             reviewText: "Commodo nec sagittis tortor mauris sed. Turpis tortor quis scelerisque diam id accumsan nullam tempus. Pulvinar etiam lacus volutpat eu. Phasellus praesent ligula sit faucibus.",
             reviewAuthor: "Person Name",
-            reviewDate: "11/112011",
+            reviewDate: "11/11/2011",
         },
         {
             reviewText: "Commodo nec sagittis tortor mauris sed. Turpis tortor quis scelerisque diam id accumsan nullam tempus. Pulvinar etiam lacus volutpat eu. Phasellus praesent ligula sit faucibus.",
             reviewAuthor: "Person Name",
-            reviewDate: "11/112011",
+            reviewDate: "11/11/2011",
         },
         {
             reviewText: "Commodo nec sagittis tortor mauris sed. Turpis tortor quis scelerisque diam id accumsan nullam tempus. Pulvinar etiam lacus volutpat eu. Phasellus praesent ligula sit faucibus.",
             reviewAuthor: "Person Name",
-            reviewDate: "11/112011",
+            reviewDate: "11/11/2011",
         },
         {
             reviewText: "Commodo nec sagittis tortor mauris sed. Turpis tortor quis scelerisque diam id accumsan nullam tempus. Pulvinar etiam lacus volutpat eu. Phasellus praesent ligula sit faucibus.",
             reviewAuthor: "Person Name",
-            reviewDate: "11/112011",
+            reviewDate: "11/11/2011",
         },
         {
             reviewText: "Commodo nec sagittis tortor mauris sed. Turpis tortor quis scelerisque diam id accumsan nullam tempus. Pulvinar etiam lacus volutpat eu. Phasellus praesent ligula sit faucibus.",
             reviewAuthor: "Person Name",
-            reviewDate: "11/112011",
+            reviewDate: "11/11/2011",
         },
     ]
 
@@ -54,7 +54,7 @@ export default function Reviews() {
                 </div>
                 <Carousel className="w-full sm:px-4" plugins={[
                     Autoplay({
-                        delay: 2000,
+                        delay: 3500,
                     }),
                 ]}>
                     <CarouselContent className="-ml-1">
@@ -76,6 +76,10 @@ export default function Reviews() {
                             </CarouselItem>
                         ))}
                     </CarouselContent>
+                    <div className="flex justify-center gap-x-4">
+                        <CarouselPrevious />
+                        <CarouselNext />
+                    </div>
                 </Carousel>
             </div>
         </div>
