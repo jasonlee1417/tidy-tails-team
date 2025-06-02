@@ -12,7 +12,7 @@ export default function Hero() {
                         <h1 className="mt-24 text-5xl font-semibold tracking-tight text-pretty text-blue-900 sm:mt-10 sm:text-7xl">
                             Imagine Clean Lawns<br></br>All the Time.
                         </h1>
-                        <p className="mt-8 text-xl font-medium text-pretty text-blue-700 sm:text-xl/8">
+                        <p className="mt-8 text-2xl text-pretty text-blue-700">
                             Tidy Tails will make sure your lawn is free of animal waste. Get your free quote now!
                         </p>
                         <div className="mt-10 flex items-center gap-x-6">

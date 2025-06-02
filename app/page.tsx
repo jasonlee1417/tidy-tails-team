@@ -9,6 +9,8 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import Howitworks from "./ui/Howitworks";
 import Aboutus from "./ui/aboutus";
 import Reviews from "./ui/reviews";
+import WhyHireUs from "./ui/whyhireus";
+import AreasWeServe from "./ui/areasweserve";
 
 export default function Home() {
   return (
@@ -17,9 +19,9 @@ export default function Home() {
       <Hero />
       <Whyus />
       <Reviews />
-      {/*add why tidy tail team*/}
+      <WhyHireUs />
       {/*cta block*/}
-      {/*areas we serve*/}
+      <AreasWeServe />
       {/*refer a friend*/}
       <Howitworks />
       <Faqs />
